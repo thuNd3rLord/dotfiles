@@ -1,0 +1,8 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "require",
+        "null_ls",
+        "servers"
+    ]
+}
