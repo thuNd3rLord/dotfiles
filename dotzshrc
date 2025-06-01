@@ -114,9 +114,10 @@ alias -g n="nvim"
 # alias -g kvim='NVIM_APPNAME="nvim-kickstart" nvim'
 alias -g nvim-lazy='NVIM_APPNAME="nvim-lazy" nvim'
 alias -g nvim-sethy='NVIM_APPNAME="nvim-sethy" nvim'
-alias -g nvim-java='NVIM_APPNAME="nvim-java" nvim'
+alias -g nvim-java='NVIM_APPNAME="nvimjava" nvim'
 alias -g nvim-typecraft='NVIM_APPNAME="nvim-typecraft" nvim'
-
+alias -g tn="tmux new -s"
+alias -g ta="tmux attach -d -t"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
